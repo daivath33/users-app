@@ -1,0 +1,34 @@
+/* hero*/
+.sec-heading,
+.sec-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--size-400);
+}
+.heading-second {
+  color: var(--clr-accent-400);
+}
+
+.sec-content-heading {
+  font-size: var(--fs-600);
+}
+.sec-content p {
+  margin-bottom: var(--size-700);
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--size-1000);
+}
+.btn-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--size-600);
+}
+.btn-icon {
+  font-size: var(--fs-800);
+}

@@ -1,0 +1,63 @@
+/* user card*/
+.user-box {
+  padding-top: 6rem;
+}
+.user-card {
+  position: relative;
+  width: 18rem;
+  background-color: var(--clr-neutral-100);
+  padding-top: 9rem;
+  border-radius: 10px 10px 0 0;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: all 0.3s ease-in-out;
+}
+.user-card .user-img-small {
+  position: absolute;
+  left: 3rem;
+  top: -6rem;
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 7px solid var(--clr-accent-100);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: var(--clr-accent-200);
+}
+
+.user-card:hover {
+  transform: scale(1.05);
+}
+.user-card-det-box {
+  display: flex;
+  gap: 0.3rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.user-card .address {
+  color: var(--clr-secondary-500);
+}
+.user-card .email {
+  font-size: var(--fs-400);
+  color: var(--clr-neutral-900);
+}
+.user-card .name {
+  font-size: var(--fs-600);
+}
+
+.btn-view {
+  width: 100%;
+  padding: 1.2rem;
+  background-color: var(--clr-secondary-400);
+  color: var(--clr-neutral-100);
+  text-transform: uppercase;
+  border: none;
+  margin-top: 2.2rem;
+  font-size: var(--fs-500);
+  border-top: 4px solid var(--clr-accent-400);
+  transition: all 0.3s ease-in-out;
+  letter-spacing: 1.1px;
+}
+.btn-view:hover {
+  background-color: var(--clr-secondary-500);
+}

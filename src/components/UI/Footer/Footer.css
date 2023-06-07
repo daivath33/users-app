@@ -1,0 +1,7 @@
+footer {
+  background-color: var(--clr-neutral-200);
+  color: var(--clr-neutral-900);
+  padding: var(--size-500);
+  font-size: var(--fs-400);
+  margin-top: var(--size-600);
+}

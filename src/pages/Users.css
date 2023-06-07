@@ -1,0 +1,13 @@
+.users-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: var(--size-900);
+}
+.users-heading {
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-700);
+  padding-bottom: var(--size-950);
+  text-align: center;
+}
